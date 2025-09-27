@@ -56,10 +56,10 @@ Some generated images show **recognizable cat features** ✅, but results still 
 ```bash
 /file  
 ├── Dataset_image/   
-│ ├── image_folder/chats &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Folder containing training images / Here, it's cat 😺 !  
-│ ├── model/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Saved models (generator & discriminator)  
-│ ├── result_image/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Generated results  
-├── Img/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Subfolder with the example image for the README.md  
+│ ├── image_folder/chats            # Folder containing training images / Here, it's cat 😺 !  
+│ ├── model/                        # Saved models (generator & discriminator)  
+│ ├── result_image/                 # Generated results  
+├── Img/                            # Subfolder with the example image for the README.md  
 ├── LICENSE  
 ├── README.md  
 ├── main.py
