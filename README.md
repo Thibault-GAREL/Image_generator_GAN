@@ -45,14 +45,34 @@ For me, I used a dataset of cat pictures to train it ! 😺
 
 ## 📂 Repository Structure  
 
---- 
+```bash
 /file  
-├── Dataset_image/ # Folder containing training images / Here, it's cat 😺 !  
-│ ├── Img/ # Subfolder with the example image  
-│ ├── model/ # Saved models (generator & discriminator)  
-│ ├── result_image/ # Generated results  
-├── LICENSE
-├── README.md
+├── Dataset_image/   
+│ ├── image_folder/chats &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Folder containing training images / Here, it's cat 😺 !  
+│ ├── model/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Saved models (generator & discriminator)  
+│ ├── result_image/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Generated results  
+├── Img/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Subfolder with the example image for the README.md  
+├── LICENSE  
+├── README.md  
 ├── main.py
+```
 
+## 💻 Run it on Your PC  
+Clone the repository and install dependencies:  
+```bash
+git clone https://github.com/your-username/gan-image-generator.git
+cd gan-image-generator
+pip install -r requirements.txt
+```
 
+Train the GAN (adjust number of epochs 🔁 in the script):  
+```bash
+python main.py
+```
+To **generate** and **display images** using the last models:
+```bash
+python main.py  #Put num_epochs = 0 l.40
+```
+
+## 📖 Inspiration / Sources  
+- I follow the learning video : [GAN from NeoCode](https://youtu.be/FWf7NXLjx9c?si=aDglR2UlTNXCPg4-)
