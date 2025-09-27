@@ -1,4 +1,4 @@
-# Image generator - GAN
+# 🎨 Image generator - GAN
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![NumPy](https://img.shields.io/badge/numpy-2.2.3-red.svg)
