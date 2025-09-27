@@ -1,9 +1,12 @@
 # Image generator - GAN
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
-![NumPy](https://img.shields.io/badge/numpy-2.2.3-blue.svg)
-![PyTorch](https://img.shields.io/badge/pytorch-2.7.1%2Bcu118-blue.svg)
-![Matplotlib](https://img.shields.io/badge/matplotlib-3.10.1-blue.svg)
+![NumPy](https://img.shields.io/badge/numpy-2.2.3-red.svg)
+![PyTorch](https://img.shields.io/badge/pytorch-2.7.1%2Bcu118-red.svg)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.10.1-red.svg)  
+
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 ## 📝 Project Description  
 This repository implements a **Generative Adversarial Network (GAN)** using PyTorch.  
