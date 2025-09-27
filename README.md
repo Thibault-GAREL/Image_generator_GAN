@@ -24,10 +24,15 @@ For me, I used a dataset of cat pictures to train it ! 😺
 - 📊 **Visualization of generated samples** during training.
  
 
-🖼️ Example of generated output :  
+🖼️ **Example of generated output** :  
 ![Image of cat](Img/generated_image_5.png) 
 ![Image of cat](Img/generated_image_10.png) 
 ![Image of cat](Img/generated_image_14.png)
+![Figure of cat](Dataset_image/result_image/Figure_14.png)
+
+**🔍 Preliminary Results:**  
+Some generated images show **recognizable cat features** ✅, but results still need improvement.  
+*Longer training (~13h GPU 💻🔥) would be required for sharper, more realistic outputs.*
 
 
 ## ⚙️ **How It Works**
