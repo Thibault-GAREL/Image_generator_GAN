@@ -17,14 +17,14 @@ For me, I used a dataset of cat pictures to train it ! 😺
 
 ---
 
-## ✨ Features / Example Output
+## ⚙️ Features
 - 🎨 **Train a GAN** on your own dataset of images.
 - 💾 **Save and reload** both generator and discriminator models.
 - 🎲 **Generate batches of fake images** directly from random noise.
 - 📊 **Visualization of generated samples** during training.
  
 
-🖼️ **Example of generated output** :  
+## 🖼️ **Example of generated output** :  
 ![Image of cat](Img/generated_image_5.png) 
 ![Image of cat](Img/generated_image_10.png) 
 ![Image of cat](Img/generated_image_14.png)
@@ -34,22 +34,29 @@ For me, I used a dataset of cat pictures to train it ! 😺
 Some generated images show **recognizable cat features** ✅, but results still need improvement.  
 *Longer training (~13h GPU 💻🔥) would be required for sharper, more realistic outputs.*
 
+---
 
 ## ⚙️ **How It Works**
 
-1. **🎨 Generator (GNet)**
+- **🎨 Generator (GNet)**
    Transforms a **random noise vector** (latent space: 📏 `100`) → **synthetic images** (🖼️ `3x64x64`).
 
-2. **🔍 Discriminator (DNet)**
+- **🔍 Discriminator (DNet)**
    Receives **real** or **generated images** → outputs a **probability** of being **"real"** (✅ or ❌).
 
-3. **🔄 Training Loop**
+- **🔄 Training Loop**
    - **Discriminator**: Learns to **distinguish** real 📸 vs. fake 🤖 images.
    - **Generator**: Learns to **fool** 🎭 the discriminator.
    - **Optimizer**: **Adam** (📈 `lr=0.0002`).
 
-4. **💾 Save & Reuse**
+- **💾 Save & Reuse**
    Models are saved as **`.pth` files** for later **inference** or fine-tuning.
+
+## 🗺️ Schema
+Here is the GAN architecture :
+![GAN Schema](Img/Schema.png)
+
+---
 
 ## 📂 Repository Structure  
 
@@ -64,13 +71,15 @@ Some generated images show **recognizable cat features** ✅, but results still 
 ├── README.md  
 ├── main.py
 ```
-
+---
 ## 💻 Run it on Your PC  
 Clone the repository and install dependencies:  
 ```bash
-git clone https://github.com/your-username/gan-image-generator.git
-cd gan-image-generator
-pip install -r requirements.txt
+git clone https://github.com/Thibault-GAREL/Image_generator_GAN.git
+cd Image_generator_GAN
+pip install numpy torch torchvision matplotlib
+# install with Cuda:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
 Train the GAN (adjust number of epochs 🔁 in the script):  
@@ -81,6 +90,6 @@ To **generate** and **display images** using the last models:
 ```bash
 python main.py  #Put num_epochs = 0 l.40
 ```
-
+---
 ## 📖 Inspiration / Sources  
-- I follow the learning video : [GAN from NeoCode](https://youtu.be/FWf7NXLjx9c?si=aDglR2UlTNXCPg4-)
+- 🎥 I follow the learning video : [GAN from NeoCode](https://youtu.be/FWf7NXLjx9c?si=aDglR2UlTNXCPg4-)
