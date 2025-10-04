@@ -93,3 +93,5 @@ python main.py  #Put num_epochs = 0 l.40
 ---
 ## 📖 Inspiration / Sources  
 - 🎥 I follow the learning video : [GAN from NeoCode](https://youtu.be/FWf7NXLjx9c?si=aDglR2UlTNXCPg4-)
+
+Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL)
