@@ -8,6 +8,10 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
+<p align="center">
+  <img src="Img/Titre.png" width="200" />
+</p>
+
 ## 📝 Project Description  
 This repository implements a **Generative Adversarial Network (GAN)** using PyTorch.  
 It allows training and using a generator model to produce realistic images of **Cat**🐈 from random noise vectors.  
@@ -26,9 +30,9 @@ For me, I used a dataset of cat pictures to train it ! 😺
 
 ## 🖼️ **Example of generated output** :  
 <p align="center">
-  <img src="Img/generated_image_5.png" width="200" />
-  <img src="Img/generated_image_10.png" width="200" />
-  <img src="Img/generated_image_14.png" width="200" />
+  <img src="Img/generated_image_5.png" width="100" />
+  <img src="Img/generated_image_10.png" width="100" />
+  <img src="Img/generated_image_14.png" width="100" />
 </p>
 
 ![Figure of cat](Dataset_image/result_image/Figure_14.png)
