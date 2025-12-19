@@ -25,9 +25,12 @@ For me, I used a dataset of cat pictures to train it ! 😺
  
 
 ## 🖼️ **Example of generated output** :  
-![Image of cat](Img/generated_image_5.png) 
-![Image of cat](Img/generated_image_10.png) 
-![Image of cat](Img/generated_image_14.png)
+<p align="center">
+  <img src="Img/generated_image_5.png" width="200" />
+  <img src="Img/generated_image_10.png" width="200" />
+  <img src="Img/generated_image_14.png" width="200" />
+</p>
+
 ![Figure of cat](Dataset_image/result_image/Figure_14.png)
 
 **🔍 Preliminary Results:**  
