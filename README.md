@@ -31,8 +31,8 @@ For me, I used a dataset of cat pictures to train it ! 😺
 ## 🖼️ **Example of generated output** :  
 <p align="center">
   <img src="Img/generated_image_5.png" width="100" />
-  <img src="Img/generated_image_10.png" width="100" />
   <img src="Img/generated_image_14.png" width="100" />
+  <img src="Img/generated_image_10.png" width="100" />
 </p>
 
 ![Figure of cat](Dataset_image/result_image/Figure_14.png)
